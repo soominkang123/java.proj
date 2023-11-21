@@ -149,10 +149,10 @@ public class UsageOfDataType {  // 클래스 영역
     	  // 출력 내용 : 나의 이름은 강 수민 입니다.
     	  
     	  // println (); 출력
-    	System.out.println("나의 이름은" + lastName + " " + firstName1 + firstName2 + "입니다.");
+    	System.out.println("나의 이름은" + firstName1 + " " + firstName2 + lastName + "입니다.");
     	
     	  // printf (); 출력
-    	System.out.printf("나의 이름은 %c %c%c 입니다. ", lastName, firstName1, firstName2);  
+    	System.out.printf("나의 이름은 %c %c%c 입니다. ", firstName1, firstName2, lastName);  
     	  
     	  
     	  
