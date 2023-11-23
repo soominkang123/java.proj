@@ -1,4 +1,4 @@
-package Chap2.ex04;
+package Chap2.ex04.copy;
 
 public class TypeCasting2 {
 

@@ -1,4 +1,4 @@
-package Chap2.ex05;
+package Chap2.ex05.copy;
 
 import java.util.Scanner;
 
