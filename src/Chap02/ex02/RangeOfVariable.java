@@ -1,4 +1,4 @@
-package Chap2.ex02;
+package Chap02.ex02;
 
 public class RangeOfVariable {
 	public static void main(String[] args) {
