@@ -41,6 +41,10 @@ public class TypeCasting {
 		System.out.println(d);
 		
 		
+	
+		
+		
+
 		
 }
 	

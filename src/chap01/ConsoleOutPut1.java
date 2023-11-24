@@ -59,7 +59,7 @@ public class ConsoleOutPut1 {  // 클래스 블락
          System.out.println("======print() =======");
          		
 		//2. System.out.print();  : 콘솔에 출력후 라인을 개행하지 않음 \n : 라인을 개행 ,\t : 탭
-             
+            
              System.out.println("======print() =======");
              System.out.println("오늘");
              System.out.println("날씨");
