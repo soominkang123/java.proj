@@ -19,6 +19,8 @@ public class Object_Definition {
 	
 	// 생성자 : 인풋 값이 존재하는 생성자
 	Object_Definition(String name, int age, double weight, String add) {
+		// this : 자신 객체의 필드, 인풋 변수이름 = 받는 변수 이름 = 필드 이름이 동일 할 경우 this.
+		this.name = name;
 		this.name = name;
 		this.age = age;
 		this.weight = weight;
@@ -36,6 +38,13 @@ public class Object_Definition {
 	int printAge ( ) {
 		return age;
 	}
+	
+	void printAll( ) {
+		System.out.println("이름 :+" + name + " , 나이 :"+ age );
+		System.out.println("몸무게 :" + weight + ", 주소 : " + add);
+				
+	}
+
 	
    //메소드(함수) 블락
 	public static void main(String[] args) {
@@ -76,7 +85,42 @@ public class Object_Definition {
 	  hong.printName();
 		
 	  System.out.println(hong.printAge());
-	  	
+	  
+	  hong.printAll();
+	  
+	  System.out.println("===================");
+	  
+	  // 1.객체 생성 : 생성자에 매개변수의 값을 넣어서 객체 생성 
+	  Object_Definition lee = new Object_Definition("이순신", 40 , 88.8 , "서울") ;
+		  
+	  // 2. 메소드 호출
+		lee.printAll();	  
+		
+	  System.out.println("==========================");
+	  //객체 생성 : 클래스 (설계도) ===> 객체 (건물, 붕어빵)   ctrl space
+	  
+	  Object_Definition park = new Object_Definition("박문수" , 60 , 66.7, "대전") ;
+	  
+	  //2. 객체의 메소드 호출
+		park.printAll();
+		System.out.println("=================");
+				
+		System.out.println(park.name); // 박문수
+		System.out.println(park.age);  // 60
+				
+		System.out.println("===================");
+		System.out.println(hong.name); // 홍길동
+		System.out.println(hong.age); // 30
+		
+		System.out.println("===================");
+		System.out.println(lee.name);  // 이순신
+		System.out.println(lee.age);   // 40
+		
+		System.out.println("===필드의 값을 수정===");
+		lee.name = "이길동";
+		lee.age = 77;
+		
+		
 	}
 
 }
