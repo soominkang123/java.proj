@@ -1,4 +1,4 @@
-package chap06;
+package chap06.ex01;
 // 클래스 밖에 : 패키지, 임포트,  외부 클래스
 
 
