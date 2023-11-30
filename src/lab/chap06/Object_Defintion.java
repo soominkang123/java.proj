@@ -3,7 +3,7 @@ package lab.chap06;
 class Animal {
 	
 	// 1. 필드
-	String animalName;
+	String aName;
 	String aColor;
 	int aLeg ;              // 팔다리 갯수
 	int aSpeed ;
@@ -12,7 +12,7 @@ class Animal {
     
     // 생성자 : 필드의 기본 값을 입력 하는 생성자
     Animal (String aName , String aColor , int aLeg ,int aSpeed, String aCry) {
-		this. animalName = aName;
+		this. aName = aName;
 		this. aColor = aColor;
 		this. aLeg = aLeg;
 		this. aSpeed = aSpeed;
@@ -20,7 +20,7 @@ class Animal {
 		}
     // 메소드 : 필드의 모든 값을 출력 하는 메소드
     void printAll() {
-		System.out.println("동물이름 : " + animalName);
+		System.out.println("동물이름 : " + aName);
 		System.out.println("동물색 : " + aColor);
 		System.out.println("동물속도 : " + aSpeed);
 		System.out.println("동물다리수 : " + aLeg);
@@ -34,7 +34,7 @@ class Animal {
    
     //메소드 :  다리의 개수와 속도를 출력
   	void lS() {
-  	System.out.println(animalName + "의 다리는 " + aLeg + " 개 이고, " + "속도는 " + aSpeed + " 입니다.");
+  	System.out.println(aName + "의 다리는 " + aLeg + " 개 이고, " + "속도는 " + aSpeed + " 입니다.");
   	}
     
     
