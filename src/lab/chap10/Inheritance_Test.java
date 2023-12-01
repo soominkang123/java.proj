@@ -12,10 +12,10 @@ public class Inheritance_Test {
 	
 		// 업 캐스팅 <==> 다운 캐스팅 
 
-		Animal a1 = new Animal();
 		
-		a1.Animal="동물";
-	    a1.age=10;
+		
+	//	a1.Animal="동물";
+	  //  a1.age=10;
 	    
 	    
 		
