@@ -50,6 +50,7 @@ public class Array_vs_ArrayList2 {
 					// aList.remove(index),    aList.remove(값)    // 삭제 
 					// aList.get(index)    //index의 값을 출력  
 
+					
 					List<Integer> aList = new ArrayList<>();          // 
 					ArrayList<Integer> aList2 = new ArrayList<>(); 
 
